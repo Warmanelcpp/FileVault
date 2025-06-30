@@ -68,7 +68,6 @@ A simple and effective C++ application that encrypts and decrypts files using XO
 ---
 
 ## 🙋‍♂️ Author
-    Huseyn Seyfullazade
     GitHub: @Warmmlo1
 
 ---
