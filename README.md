@@ -1,77 +1,77 @@
 # FileVault
 # 🔐 File Encryption and Decryption Tool (C++)
 
-A simple and effective C++ application that encrypts and decrypts files using XOR-based encryption. Designed as a university project, this tool demonstrates basic file I/O, binary data handling, and encryption logic — great for learning and real use!
+XOR tabanlı şifreleme kullanarak dosyaları şifreleyen ve şifresini çözen basit ve etkili bir C++ uygulaması. Bir üniversite projesi olarak tasarlanan bu araç, temel dosya girişi/çıkışı, ikili veri işleme ve şifreleme mantığını göstermektedir.
 
 ---
 
-## 🚀 Features
+## 🚀 Özellikler
 
-- 🔒 Encrypt any file using XOR encryption
-- 🔓 Decrypt using the same key
-- 📁 Works with all file types (text, binary, images, etc.)
-- 💡 Simple, menu-based interface
-- 🧠 Great for beginners learning file handling and encryption
+- 🔒 Herhangi bir dosyayı XOR şifrelemesiyle şifrele
+- 🔓 Aynı anahtarla şifresini çöz
+- 📁 Tüm dosya türleriyle çalışır (metin, ikili, resim vb.)
+- 💡 Basit, menü tabanlı arayüz
+- 🧠 Dosya işlemleri ve şifrelemeyi öğrenen yeni başlayanlar için harika
 
 ---
 
-## 🛠️ How to Use
+## 🛠️ Nasıl Kullanılır
 
-1. **Clone this repo** or download the `.cpp` file:
+1. **Bu repoyu klonlayın** veya `.cpp` dosyasını indirin:
    ```bash
    git clone https://github.com/your-username/file-encryption-tool.git
 
-2. Open the project in Dev C++ or your preferred C++ IDE.
+2. Projeyi Dev C++ ya da tercih ettiğiniz C++ IDE’sinde açın.
 
-3. Compile and run the app:
+3. Uygulamayı derleyip çalıştırın:
 
-    Open main.cpp
+    main.cpp dosyasını açın.
 
-    Press F11 (Compile & Run in Dev C++)
+    F11 tuşuna basın (Dev C++’ta Derle ve Çalıştır)
 
-4. Follow the on-screen menu:
+4. Ekrandaki menüyü takip edin:
 
-    Enter the filename to encrypt/decrypt
+    Şifrelemek/şifresini çözmek için dosya adını girin
 
-    Enter the output filename
+    Çıktı dosyasının adını girin
 
-    Enter a single character as the encryption key
+    Şifreleme anahtarı olarak tek bir karakter girin
 
-⚠️ Important: Keep the key safe — you'll need the same key to decrypt the file.
-
----
-
-## 📂 Example
-
-- 🔐 Encrypt a file:
-- Input file: message.txt
-- Output file: secret.enc
-- Key: X
-
-- 🔓 Decrypt a file:
-- Input file: secret.enc
-- Output file: restored.txt
-- Key: X
+⚠️ Önemli: Anahtarı güvende tutun — dosyanın şifresini çözmek için aynı anahtara ihtiyacınız olacak.
 
 ---
 
-## 📎 Requirements
-    C++ compiler (tested on Dev C++)
+## 📂 Örnek
 
-    Works on Windows (via Dev C++) or any OS with a C++ compiler
+- 🔐 Bir dosyayı şifrele:
+- Giriş dosyası: message.txt
+- Çıkış dosyası: secret.enc
+- Anahtar: X
+
+- 🔓 Bir dosyanın şifresini çöz:
+- Giriş dosyası: secret.enc
+- Çıkış dosyası: restored.txt
+- Anahtar: X
 
 ---
 
-## 📘 License
-    This project is open-source and free to use for educational purposes. No license restrictions.
+## 📎 Gereksinimler
+    C++ derleyicisi (Dev C++ üzerinde test edilmiştir)
+
+    Windows’ta çalışır (Dev C++ ile) veya C++ derleyicisi olan herhangi bir işletim sisteminde çalışır
 
 ---
 
-## 🙋‍♂️ Author
+## 📘 Lisans
+    Bu proje açık kaynaklıdır ve eğitim amaçlı kullanıma ücretsizdir. Lisans kısıtlaması yoktur.
+
+---
+
+## 🙋‍♂️ Geliştirici
     GitHub: @Warmmlo1
 
 ---
 
-## ⭐ Project Status
-    ✅ Completed
-    🚀 Ready to use or extend (e.g., add AES encryption or password masking)
+## ⭐ Proje Durumu
+    ✅ Tamamlandı
+    🚀 Kullanıma hazır veya geliştirilebilir (örneğin, AES şifreleme veya parola gizleme eklenebilir)

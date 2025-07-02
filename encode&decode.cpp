@@ -1,11 +1,11 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <limits>  // for cin.ignore fix
+#include <limits>  // cin.ignore düzeltmesi için
 
 using namespace std;
 
-// XOR encryption/decryption function
+// XOR şifreleme/şifre çözme fonksiyonu
 void processFile(const string& inputFileName, const string& outputFileName, char key) {
     cout << "[DEBUG] Opening input file: " << inputFileName << endl;
 
@@ -26,7 +26,7 @@ void processFile(const string& inputFileName, const string& outputFileName, char
 
     char byte;
     while (inputFile.get(byte)) {
-        byte ^= key; // XOR operation
+        byte ^= key; // XOR işlemi
         outputFile.put(byte);
     }
 
@@ -35,7 +35,7 @@ void processFile(const string& inputFileName, const string& outputFileName, char
     cout << "Process completed successfully: " << outputFileName << endl;
 }
 
-// Display main menu
+// Ana menüyü görüntüle
 void showMenu() {
     cout << "\nFile Encryption and Decryption Tool" << endl;
     cout << "--------------------------------------" << endl;
@@ -53,7 +53,7 @@ int main() {
     do {
         showMenu();
         cin >> choice;
-        cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Clear buffer
+        cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Geçici belleği temizle
 
         switch (choice) {
             case 1:
